@@ -1,0 +1,75 @@
+﻿[dotenv@17.3.1] injecting env (5) from .env -- tip: ΓÜÖ∩╕Å  enable debug logging with { debug: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ≡ƒ¢í∩╕Å auth for agents: https://vestauth.com
+node : C:\Users\beega\
+Documents\Smart 
+Events Attendance\serv
+er\node_modules\router
+\lib\route.js:228
+At line:1 char:1
++ node server.js > 
+crash.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (C:\Users\b   
+ eega\...ib\route.    
+js:228:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+        throw new 
+TypeError('argument 
+handler must be a 
+function')
+        ^
+
+TypeError: argument 
+handler must be a 
+function
+    at 
+Route.<computed> [as 
+get] (C:\Users\beega\D
+ocuments\Smart Events 
+Attendance\server\node
+_modules\router\lib\ro
+ute.js:228:15)
+    at 
+Router.<computed> [as 
+get] (C:\Users\beega\D
+ocuments\Smart Events 
+Attendance\server\node
+_modules\router\index.
+js:448:19)
+    at 
+Object.<anonymous> (C:
+\Users\beega\Documents
+\Smart Events Attendan
+ce\server\routes\userR
+oute.js:7:8)
+    at 
+Module._compile (node:
+internal/modules/cjs/l
+oader:1761:14)
+    at Object..js (nod
+e:internal/modules/cjs
+/loader:1893:10)
+    at Module.load (no
+de:internal/modules/cj
+s/loader:1481:32)
+    at Module._load (n
+ode:internal/modules/c
+js/loader:1300:12)
+    at TracingChannel.
+traceSync (node:diagno
+stics_channel:328:14)
+    at wrapModuleLoad 
+(node:internal/modules
+/cjs/loader:245:24)
+    at Module.require 
+(node:internal/modules
+/cjs/loader:1504:12)
+
+Node.js v24.12.0
